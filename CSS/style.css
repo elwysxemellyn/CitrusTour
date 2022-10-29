@@ -1,0 +1,226 @@
+.body{
+
+    height: 100vh;
+    width: 100vw;
+    color:black;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0;
+    font-family: Heebo;
+    font-size: 40px;
+
+}
+
+
+h2 {
+    color:white;
+    
+    
+  }
+  
+p {
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    }
+  
+
+
+nav a img{
+    width: 100px;
+    padding: 5px;
+    border-radius: 30%; 
+    background-color: black;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+header{
+    padding-top: 50px;
+    background-color: black;
+    
+    
+    
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid orange; 
+
+
+}
+
+.container{
+    align-items: center;
+
+}
+
+.clearfix {
+    width: 900px;
+    height: 600px;
+    
+}
+
+
+
+.center{
+    text-align: center;
+    
+    
+}
+
+.search-box{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background:white;
+    height:50px ;
+    padding: 10px;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+
+.search-text{
+    background: none;
+    border: 0px;
+    outline: 0px;
+
+    padding: 0px;
+
+    font-size: 16px;
+
+    transition: 0.4s;
+
+    width: 0px;
+
+}
+
+.search-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+
+}
+
+
+.loupe-white{
+    display: none;
+}
+
+.search-box:hover > .search-text{
+    width: 320px;
+    padding-left: 20px;
+}
+
+.search-box:hover > .search-btn {
+    background: #447ce7;
+}
+
+.search-box:hover > .search-btn .loupe-blue {
+    display: none;
+}
+.search-box:hover > .search-btn .loupe-white{
+    display: block;
+}
+
+
+ 
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.star{
+    width: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+
+    box-shadow: 6px 6px 10px #000;
+
+}
+
+.card p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color: black;
+
+}
+
+.card h3{
+    font-family: Rubik;
+    margin-bottom: 5px;
+}
+
+.card .user{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    margin-bottom: 15px;
+}
+
+.cards{
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap:40px;
+}
